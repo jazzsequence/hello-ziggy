@@ -1,0 +1,24 @@
+=== Hello Ziggy ===
+
+Contributors: jazzs3quence
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AWM2TG3D4HYQ6
+Tags: hello dolly, hello, david bowie, music, ziggy stardust, ziggy
+Requires at least: 2.8
+Tested up to: 3.5
+Stable tag: 2.0
+
+Instead of "Hello Dolly", this plugin will display a random lyric from David Bowie's "Ziggy Stardust".
+
+== Description ==
+
+This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation-- okay, yeah, it's just a plugin. When activated you will randomly see a lyric from <cite>Ziggy Stardust</cite> in the upper right of your admin screen on every page.  All thanks goes to <a href="http://ma.tt">Matt</a> for actually writing the plugin, and <a href="http://www.davidbowie.com">David Bowie</a> for being Ziggy Stardust. Yes, this is just a fork of [Hello Dolly](http://wordpress.org/extend/plugins/hello-dolly/).
+
+== Changelog ==
+
+= Version 2.0 =
+
+* finally fixed the positioning for new admin & posted on wp.org
+
+= Version 1.5.2 =
+
+* fork of Hello Dolly
