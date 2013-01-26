@@ -86,6 +86,7 @@ function ziggy_css() {
 		padding: 0;
 		right: 25px;
 		font-size: 11px;
+		z-index: -1;
 	}
 	</style>
 	";
