@@ -81,10 +81,10 @@ function ziggy_css() {
 	<style type='text/css'>
 	#ziggy {
 		position: absolute;
-		top: .5em;
+		top: 2.5em;
 		margin: 0;
 		padding: 0;
-		right: 15px;
+		right: 25px;
 		font-size: 11px;
 	}
 	</style>
