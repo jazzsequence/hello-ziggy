@@ -11,7 +11,7 @@ Instead of "Hello Dolly", this plugin will display a random lyric from David Bow
 
 == Description ==
 
-This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation-- okay, yeah, it's just a plugin. When activated you will randomly see a lyric from <cite>Ziggy Stardust</cite> in the upper right of your admin screen on every page.  All thanks goes to <a href="http://ma.tt">Matt</a> for actually writing the plugin, and <a href="http://www.davidbowie.com">David Bowie</a> for being Ziggy Stardust. Yes, this is just a fork of [Hello Dolly](http://wordpress.org/extend/plugins/hello-dolly/).
+This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation-- okay, yeah, it's just a plugin. When activated you will randomly see a lyric from <cite>Ziggy Stardust</cite> in the upper right of your admin screen on every page.  All thanks goes to [Matt](http://ma.tt) for actually writing the plugin, and [David Bowie](http://www.davidbowie.com) for being Ziggy Stardust. Yes, this is just a fork of [Hello Dolly](http://wordpress.org/extend/plugins/hello-dolly/).
 
 == Changelog ==
 
