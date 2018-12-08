@@ -68,8 +68,13 @@ function hello_ziggy_get_lyric() {
 
 // This just echoes the chosen line, we'll position it later
 function hello_ziggy() {
-	$chosen = hello_ziggy_get_lyric();
-	echo "<p id='ziggy'>$chosen</p>";
+	ob_start();
+	?>
+	<p id="ziggy">
+		<?php echo esc_html( hello_ziggy_get_lyric() ); ?>
+	</p>
+	<?php
+	echo wp_kses_post( ob_get_clean() );
 }
 
 // Now we set that function up to execute when the admin_footer action is called
