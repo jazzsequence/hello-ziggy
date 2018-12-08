@@ -9,18 +9,18 @@
 */
 
 /*
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
 
-    http://www.opensource.org/licenses/gpl-3.0.html
+	http://www.opensource.org/licenses/gpl-3.0.html
 */
 
 function hello_ziggy_get_lyric() {
@@ -59,14 +59,14 @@ function hello_ziggy_get_lyric() {
 	Ooooooo
 	Ziggy played guitaarrrrrr";
 
-	// Here we split it into lines
-	$lyrics = explode("\n", $lyrics);
+	// Here we split it into lines.
+	$lyrics = explode( "\n", $lyrics );
 
-	// And then randomly choose a line
-	return wptexturize( $lyrics[ mt_rand(0, count($lyrics) - 1) ] );
+	// And then randomly choose a line.
+	return wptexturize( $lyrics[ mt_rand( 0, count( $lyrics ) - 1 ) ] );
 }
 
-// This just echoes the chosen line, we'll position it later
+// This just echoes the chosen line, we'll position it later.
 function hello_ziggy() {
 	ob_start();
 	?>
@@ -77,14 +77,14 @@ function hello_ziggy() {
 	echo wp_kses_post( ob_get_clean() );
 }
 
-// Now we set that function up to execute when the admin_footer action is called
-add_action('admin_footer', 'hello_ziggy');
+// Now we set that function up to execute when the admin_footer action is called.
+add_action( 'admin_footer', 'hello_ziggy' );
 
-// We need some CSS to position the paragraph
+// We need some CSS to position the paragraph.
 function ziggy_css() {
 	wp_enqueue_style( 'hello-ziggy', plugin_dir_url( __FILE__ ) . '/assets/css/ziggy.css' );
 }
 
-add_action('admin_head', 'ziggy_css');
+add_action( 'admin_enqueue_scripts', 'ziggy_css' );
 
 ?>
