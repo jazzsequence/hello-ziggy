@@ -77,19 +77,7 @@ add_action('admin_footer', 'hello_ziggy');
 
 // We need some CSS to position the paragraph
 function ziggy_css() {
-	echo "
-	<style type='text/css'>
-	#ziggy {
-		position: absolute;
-		top: 2.5em;
-		margin: 0;
-		padding: 0;
-		right: 25px;
-		font-size: 11px;
-		z-index: -1;
-	}
-	</style>
-	";
+	wp_enqueue_style( 'hello-ziggy', plugin_dir_url( __FILE__ ) . '/assets/css/ziggy.css' );
 }
 
 add_action('admin_head', 'ziggy_css');
