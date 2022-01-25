@@ -1,7 +1,7 @@
 === Hello Ziggy ===
 
 Contributors: jazzs3quence
-Donate link: https://paypal.me/jazzs3quence
+Donate link: https://paypal.me/jazzsequence
 Tags: hello dolly, hello, david bowie, music, ziggy stardust, ziggy
 Requires at least: 2.8
 Tested up to: 5.9
