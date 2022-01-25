@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Hello Ziggy
 	Description: Instead of "Hello Dolly", this plugin will display a random lyric from David Bowie's "Ziggy Stardust".
-	Version: 2.1
+	Version: 2.1.1
 	Author: Chris Reynolds
 	Author URI: https://jazzsequence.com
 	License: GPL3
