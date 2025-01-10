@@ -1,0 +1,14 @@
+{
+    "name": "jazzsequence/hello-ziggy",
+    "description": "Instead of \"Hello Dolly\", this plugin will display a random lyric from David Bowie's \"Ziggy Stardust\".",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Chris Reynolds",
+            "email": "chris@jazzsequence.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
