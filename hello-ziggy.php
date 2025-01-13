@@ -1,11 +1,13 @@
 <?php
 /*
-	Plugin Name: Hello Ziggy
-	Description: Instead of "Hello Dolly", this plugin will display a random lyric from David Bowie's "Ziggy Stardust".
-	Version: 2.1.2
-	Author: Chris Reynolds
-	Author URI: https://jazzsequence.com
-	License: GPL3
+ * Plugin Name: Hello Ziggy
+ * Description: Instead of "Hello Dolly", this plugin will display a random lyric from David Bowie's "Ziggy Stardust".
+ * Version: 2.1.2
+ * Author: Chris Reynolds
+ * Author URI: https://jazzsequence.com
+ * License: GPL3
+ * GitHub Plugin URI: jazzsequence/hello-ziggy
+ * Primary Branch: main
 */
 
 /*
