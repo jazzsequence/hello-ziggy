@@ -1,11 +1,15 @@
 <?php
 /*
  * Plugin Name: Hello Ziggy
+ * Plugin URI: https://github.com/jazzsequence/hello-ziggy
  * Description: Instead of "Hello Dolly", this plugin will display a random lyric from David Bowie's "Ziggy Stardust".
- * Version: 2.1.2
+ * Version: 2.1.3
  * Author: Chris Reynolds
  * Author URI: https://jazzsequence.com
+ * Requires at least: 2.9
+ * Requires PHP: 7.0
  * License: GPL3
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * GitHub Plugin URI: jazzsequence/hello-ziggy
  * Primary Branch: main
 */
@@ -84,7 +88,7 @@ add_action( 'admin_footer', 'hello_ziggy' );
 
 // We need some CSS to position the paragraph.
 function ziggy_css() {
-	wp_enqueue_style( 'hello-ziggy', plugin_dir_url( __FILE__ ) . '/assets/css/ziggy.css' );
+	wp_enqueue_style( 'hello-ziggy', plugin_dir_url( __FILE__ ) . 'assets/css/ziggy.css' );
 }
 
 add_action( 'admin_enqueue_scripts', 'ziggy_css' );
