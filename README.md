@@ -5,9 +5,12 @@
 Contributors: [jazzsequence](https://github.com/jazzsequence)  
 Donate link: https://paypal.me/jazzsequence  
 Tags: hello dolly, hello, david bowie, music, ziggy stardust, ziggy  
-Requires at least: 2.8  
-Tested up to: 5.9  
-Stable tag: 2.1.2  
+Requires at least: 2.9  
+Tested up to: 7.1  
+Requires PHP: 7.0  
+Stable tag: 2.1.3  
+License: GPLv3  
+License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
 Instead of "Hello Dolly", this plugin will display a random lyric from David Bowie's "Ziggy Stardust".
 
@@ -38,9 +41,16 @@ Hello Ziggy supports [Andy Fragen's Git Updater](https://git-updater.com) method
 **GitHub Access Token:** (optional, leave blank)
 
 #### Via WordPress Plugin Repository
-The plugin can be installed via the WordPress plugin repository, however, the version in the repository may not be the most current version. Use the standard methods of searching for and installing the plugin from the Plugins page in your WordPress dashboard.
+The plugin can be installed via the WordPress plugin repository. Use the standard methods of searching for and installing the plugin from the Plugins page in your WordPress dashboard. Releases are pushed to WordPress.org automatically, so the version there matches the latest release here.
 
 ## Changelog
+
+### Version 2.1.3
+* Added the `Plugin URI`, `Requires at least`, `Requires PHP` and `License URI` plugin headers, none of which were present.
+* Declared WordPress 2.9 as the minimum, which is when `wp_kses_post()` landed. It said 2.8.
+* Tested up to WordPress 7.1.
+* Fixed a double slash in the stylesheet URL.
+* Releases now deploy to WordPress.org from a GitHub Action instead of by hand.
 
 ### Version 2.1.2
 * made installable via Composer
